@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# production
+build/
+
+# development
+.vscode/*
+!.vscode/launch.json
+.env
+*.log
+globalConfig.json
+
+# misc
+.DS_Store
+
+# Serverless
+.build/
+.serverless
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+
